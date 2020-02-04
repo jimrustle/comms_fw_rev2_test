@@ -1,0 +1,3 @@
+CC1125.cpp:10:1:CC1125::CC1125()	16	static
+CC1125.cpp:15:1:CC1125::~CC1125()	16	static
+CC1125.cpp:15:1:virtual CC1125::~CC1125()	16	static

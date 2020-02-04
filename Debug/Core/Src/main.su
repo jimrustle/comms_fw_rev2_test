@@ -1,0 +1,11 @@
+main.cpp:83:5:int main()	48	static
+main.cpp:162:6:void SystemClock_Config()	120	static
+main.cpp:209:13:void MX_I2C2_Init()	8	static
+main.cpp:255:13:void MX_SPI1_Init()	8	static
+main.cpp:293:13:void MX_SPI2_Init()	8	static
+main.cpp:331:13:void MX_USART1_UART_Init()	8	static
+main.cpp:366:13:void MX_USART2_UART_Init()	8	static
+main.cpp:401:13:void MX_GPIO_Init()	48	static
+main.cpp:442:6:void StartDefaultTask(const void*)	16	static
+main.cpp:465:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:482:6:void Error_Handler()	8	static

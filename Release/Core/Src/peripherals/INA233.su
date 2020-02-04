@@ -1,0 +1,3 @@
+INA233.cpp:15:1:INA233::~INA233()	0	static
+INA233.cpp:15:1:virtual INA233::~INA233()	8	static
+INA233.cpp:10:1:INA233::INA233()	0	static

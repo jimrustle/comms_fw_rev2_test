@@ -1,0 +1,3 @@
+SPI.cpp:10:1:SPI::SPI()	16	static
+SPI.cpp:15:1:SPI::~SPI()	16	static
+SPI.cpp:15:1:virtual SPI::~SPI()	16	static

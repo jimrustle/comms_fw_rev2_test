@@ -1,0 +1,3 @@
+TMP461.cpp:10:1:TMP461::TMP461()	16	static
+TMP461.cpp:15:1:TMP461::~TMP461()	16	static
+TMP461.cpp:15:1:virtual TMP461::~TMP461()	16	static
