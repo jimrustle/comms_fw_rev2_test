@@ -1,3 +1,4 @@
-INA233.cpp:10:1:INA233::INA233()	16	static
+INA233.cpp:10:1:INA233::INA233(I2C_HandleTypeDef, uint16_t)	24	static
 INA233.cpp:15:1:INA233::~INA233()	16	static
 INA233.cpp:15:1:virtual INA233::~INA233()	16	static
+INA233.cpp:20:5:int INA233::readCurrent()	48	static

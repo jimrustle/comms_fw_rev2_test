@@ -1,3 +1,4 @@
-TMP461.cpp:10:1:TMP461::TMP461()	16	static
+TMP461.cpp:10:1:TMP461::TMP461(I2C_HandleTypeDef, uint16_t)	24	static
 TMP461.cpp:15:1:TMP461::~TMP461()	16	static
 TMP461.cpp:15:1:virtual TMP461::~TMP461()	16	static
+TMP461.cpp:19:5:int TMP461::readTemp()	48	static

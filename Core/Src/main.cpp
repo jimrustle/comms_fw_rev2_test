@@ -23,6 +23,7 @@
 #include "cmsis_os.h"
 
 #include "peripherals/TMP461.h"
+#include "peripherals/INA233.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -57,6 +58,11 @@ osThreadId defaultTaskHandle;
 
 TMP461 pa_temp = TMP461(hi2c2, 0x48);
 TMP461 lna_temp = TMP461(hi2c2, 0x49);
+
+
+INA233 mon_3v3 = INA233(hi2c2, 0x44);
+INA233 mon_cc1125 = INA233(hi2c2, 0x45);
+INA233 mon_5v0 = INA233(hi2c2, 0x46);
 
 /* USER CODE END PV */
 
@@ -456,6 +462,10 @@ void StartDefaultTask(void const * argument)
 
 		pa_temp.readTemp();
 		lna_temp.readTemp();
+
+		mon_3v3.readCurrent();
+		mon_cc1125.readCurrent();
+		mon_5v0.readCurrent();
 	}
   /* USER CODE END 5 */ 
 }
